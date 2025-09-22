@@ -1,4 +1,4 @@
-package simulation.model
+package model
 
 import kotlinx.serialization.Serializable
 import kotlin.math.hypot

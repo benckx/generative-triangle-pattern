@@ -1,4 +1,4 @@
-package simulation.model
+package model
 
 import kotlin.math.acos
 import kotlin.math.hypot

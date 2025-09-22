@@ -1,8 +1,6 @@
-package simulation
-
 import io.github.oshai.kotlinlogging.KotlinLogging
-import simulation.model.Edge
-import simulation.model.Triangle
+import model.Edge
+import model.Triangle
 import java.awt.BasicStroke
 import java.awt.Color
 import java.awt.Graphics2D

@@ -1,8 +1,5 @@
-package simulation
-
-
-import simulation.model.Point
-import simulation.model.Triangle
+import model.Point
+import model.Triangle
 
 private const val MIN_DISTANCE = 200
 private const val MAX_DISTANCE = 500
