@@ -10,7 +10,7 @@ data class Triangle(val a: Point, val b: Point, val c: Point) {
     val points: Set<Point>
         get() = setOf(a, b, c)
 
-    val edges : Set<Edge>
+    val edges: Set<Edge>
         get() = setOf(Edge(a, b), Edge(b, c), Edge(c, a))
 
     /**

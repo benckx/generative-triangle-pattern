@@ -1,8 +1,5 @@
 package model
 
-import kotlinx.serialization.Serializable
-
-@Serializable
 data class Edge(val p1: Point, val p2: Point) {
     val points
         get() = setOf(p1, p2)
